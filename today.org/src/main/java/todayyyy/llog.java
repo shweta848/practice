@@ -15,7 +15,7 @@ public class llog {
 	
 	@FindBy(xpath="//input[@type=\"password\"]")private WebElement pass;
 	
-	@FindBy(xpath="//input[@id=\"signInSubmit\"]")private WebElement signin;
+	@FindBy(xpath="//input[@id=\"signInSubmit\"]")private WebElement signin;//change here for git only
 	
 	public llog(WebDriver driver) {
 		PageFactory.initElements(driver, this);
